@@ -1,0 +1,25 @@
+.main-nav {
+    background-color: #2d525bc2;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__header {
+        margin: 0;
+        padding: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    &__heading {
+        margin: 0;
+    }
+
+    &__profile {
+        margin: 0;
+        font-size: 20px;
+    }
+}

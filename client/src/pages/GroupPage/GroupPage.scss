@@ -1,0 +1,11 @@
+.main-page-section {
+    margin-left: 20vw;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__heading {
+        flex-basis: 100%;
+    }
+}

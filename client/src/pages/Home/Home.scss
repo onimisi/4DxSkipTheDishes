@@ -1,0 +1,69 @@
+.main-page-section {
+    margin-left: 20vw;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+
+    &__heading {
+        flex-basis: 100%;
+        margin: 20px 0;
+
+        h1 {
+            font-size: 30px;
+            margin: 1rem 0;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin:0;
+        }
+
+        h3 {
+            font-size: 15px;
+            margin:0;
+        }
+    }
+}
+
+.inv-list {
+    background-color: lightgray;
+}
+
+.calendar {
+    width: 40%;
+    height: 30%;
+}
+
+// .carousel, .slide{
+//     width: 40%;
+// }
+
+.kitchen-info {
+    margin-top: 15px;
+
+    &__content {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    &__list {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
+
+.side-options {
+    width: 50%
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.card {
+    border: solid red 1px;
+}
